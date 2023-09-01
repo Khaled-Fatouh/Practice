@@ -4,95 +4,108 @@
         <title> Khaled's Personal Site</title>
         <meta charset="UTF-8">
         <meta name="description", content="This is a site to practice html content">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     </head>
-
     <body>
-        <table cellspacing = "20">
-            <tr>
-                <td><img src="Image/Khaled.jpg" alt="Khaled's Profile"></td>
-                <td>
-                    <h1> Khaled Fatouh Fathallah</h1>
-                    <p><strong>Software Testing Engineer</strong></p>
-                    <p>Department of Computer & Information System</p>
-                    <a href="https://www.asu.edu.eg/"> Ain Shams University</a>
-                    <p>I recently graduated from Ain Shams University. As a (SW Engineer) graduate, I'm currently seeking to entry level position in a space that allows me to expand my skills and learn about (Software Testing).</p>
-                </td>
-            </tr>
-        </table>
+        <a class="Anchor" href="Contact.html">Contact</a>
+        <a class="Anchor" href="Contact.html">About</a>
+        <div class="top-container">
+            <img class="circular" src="Image/Khaled.jpg" alt="Khaled's Profile">
+            <table cellspacing = "20">
+                <tr>
+                    <td>
+                        <h1> Khaled Fatouh Fathallah</h1>
+                        <p class="text1"><strong>Software <span class="pro">Testing</span> Engineer</strong></p>
+                        <a class="Anchor" href="https://www.asu.edu.eg/"> Ain Shams University</a>
+                        <p>I recently graduated from Ain Shams University. As a (SW Engineer) graduate, I'm currently seeking to entry level position in a space that allows me to expand my skills and learn about (Software Testing).</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
         <hr>
-        <h3>Courses and Internships</h3>
-        <!--
-        <ul>
-            <li>Complete Software Testing Bootcamp</li>
-            <li>Complete Web Development Bootcamp</li>
-            <li>Internship in BA with A3raf Consulting Group</li>
-            <li>Internship in Java Language Using OOP Concepts</li>
-            <li>Internship in C++ Language Using OOP Concepts</li>
-        </ul>
-        -->
-                <table cellspacing = "15">
-            <thead>
-                <tr>
-                    <th>Content</th>
-                    <th>Year</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        Complete Software Testing Bootcamp
-                    </td>
-                    <td>2023</td>
-                </tr>
-                <tr>   
-                    <td>
-                        Complete Web Development Bootcamp
-                    </td>
-                    <td>
-                        2022
-                    </td>
-                </tr>
-                <tr>   
-                    <td>
-                        Internship in BA with A3raf Consulting Group
-                    </td>
-                    <td>
-                        2021
-                    </td>
-                </tr>
-                <tr>
-                    <td>Internship in Java Language Using OOP Concepts</td>
-                    <td>2019</td>
-                </tr>
-                <tr>
-                    <td>Internship in C++ Language Using OOP Concepts</td>
-                    <td>2018</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="mid-container">
+            <h3>Courses and Internships</h3>
+            <img src="Image/courses.png" alt="course-image">
+            <!--
+            <ul>
+                <li>Complete Software Testing Bootcamp</li>
+                <li>Complete Web Development Bootcamp</li>
+                <li>Internship in BA with A3raf Consulting Group</li>
+                <li>Internship in Java Language Using OOP Concepts</li>
+                <li>Internship in C++ Language Using OOP Concepts</li>
+            </ul>
+            -->
+                    <table cellspacing = "15" class="mid-container">
+                <thead>
+                    <tr>
+                        <th>Content</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Complete Software Testing Bootcamp
+                        </td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>   
+                        <td>
+                            Complete Web Development Bootcamp
+                        </td>
+                        <td>
+                            2022
+                        </td>
+                    </tr>
+                    <tr>   
+                        <td>
+                            Internship in BA with A3raf Consulting Group
+                        </td>
+                        <td>
+                            2021
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Internship in Java Language Using OOP Concepts</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>Internship in C++ Language Using OOP Concepts</td>
+                        <td>2018</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <hr>
 
-        <table cellspacing = "15">
-            <thead>
+        <div class="bottom-container">
+            <h3>Skills</h3>
+            <img src="Image/skills.png" alt="Skill">
+        </div>
+        <div>
+            <table  cellspacing = "15" class="bottom-container">
                 <tr>
-                    <th>Skills</th>
+                    <td>Manual Testing</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    <td>API Testing</td>
+                    <td>⭐⭐⭐</td>
                 </tr>
-            </thead>
-            <tr>
-                <td>Manual Testing</td>
-                <td>⭐⭐⭐⭐⭐</td>
-                <td>API Testing</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Writing Bug Report</td>
-                <td>⭐⭐⭐⭐⭐</td>
-                <td>Writing Test Cases</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-        </table>
-        <a href="Contact.html">Contact</a>
-    </body>
-</html>
-
-<!-- docs.emmet.io  is a link of all html elements-->
+                <tr>
+                    <td>Writing Bug Report</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    <td>Writing Test Cases</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+            </table>
+        </div>
+        
+        </body>
+    </html>
+        
+<!--
+     docs.emmet.io  is a link of all html elements
+     color hunt is a link for colors
+-->
